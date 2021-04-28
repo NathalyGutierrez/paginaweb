@@ -59,7 +59,7 @@ aside#menu-responsive nav a:hover { color: #F9F9F9; transition: all 0.3 ease-in;
 
     /* caja Main */
 
-    main {width: 100%; height: auto; display: block; margin: 50px auto 0 auto; float: none; position: relative;}
+    main {width: 100%; height: auto; display: block; margin: 80px auto 0 auto; float: none; position: relative;}
 
 
     /* Section Banner */
