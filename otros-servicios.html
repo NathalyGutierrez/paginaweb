@@ -43,13 +43,12 @@
          <a href="perfil.html">Perfil</a>
          <a href="servicio-principal.html">Servicio Principal</a>
          <a href="otros-servicios.html" class="activo" >Otros servicios</a>
-         <a href="#contactame">Contáctame</a>
 
       </nav>
    </aside>  
       
    <!-- Componente Aside : Botón flotante Whatsapp -->
-   <aside id="boton-wp">
+   <aside id="boton-whatsapp">
       <a href="https://api.whatsapp.com/send?phone=573117121929" target="_blank">
          <i class="fab fa-whatsapp"></i>
       </a>
@@ -57,24 +56,38 @@
    </aside>
 
 
-   <!-- Componente Header  -->
+   <!-- Componente Header con logo a la izquierda, menú al centro y social a la derecha-->
    <header>
       <article>
          <figure>
             <a href="index.html">
-               <img src="img/contenido/logo en png.png.tmp$$" alt="Nathaly Gutiérrez - Diseño de marca ">
-           </a>
+                <img src="img/contenido/logo en png.png.tmp$$" alt="Nathaly Gutiérrez - Diseño de marca ">
+            </a>
 
          </figure>
 
-         <nav>
+         <nav id="menu">
             <a href="index.html" >Inicio</a>
             <a href="perfil.html">Perfil</a>
             <a href="servicio-principal.html">Servicio Principal</a>
-            <a href="otros-servicios.html" class="activo" >Otros servicios</a>
-            <a href="#contactame">Contáctame</a>
+            <a href="otros-servicios.html" class="activo">Otros servicios</a>
 
          </nav>
+
+         <nav id="social">
+            <a href="https://www.instagram.com/ngutierrez_12/" target="_blank">
+               <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://co.pinterest.com/ngutierrez_12/" target="_blank">
+               <i class="fab fa-pinterest"></i>
+            </a>
+
+            <a href="">
+               <i class="fab fa-github"></i>
+            </a>
+         </nav>
+
 
       </article>
    
@@ -83,18 +96,74 @@
    <!-- Caja Main  -->
       <main>
 
+
+         <!-- Section Otros Servicios -->
+         <section id="servicios"> 
+            <article>
+               <figure>
+               <h3>OTROS SERVICIOS</h3>
+               <h2>FOTOGRAFÍA COMERCIAL</h2>
+               <p>¿Deseas tener buenas fotografías para tu marca? ¿No sabes como tomarlas? 
+                  En este recorrido, te ayudaré con el proceso de las fotografías para tu marca, haciendo lo mejor para destacar cada producto.
+                  Si deseas más información, no dudes en ponerte en contacto conmigo y con gusto atenderé esas inquietudes.</p>
+            </figure>
+
+            <figure id="imagen-servicios">
+               <img src="img/contenido/nathaly-gutierrez-fotografia-comerciall.jpg" alt="">
+            </figure>
+            </article>
+         </section>
+<!-- Section galeria Pinterest -->
+<section id="fotos"> 
+   <article>
+      <nav>
+         
+            <a href="img/contenido/grande1-nathaly-gutierrez-fotografia-de-producto-portafolio.jpeg" data-fancybox="img-otros-servicios">
+               <img src="img/contenido/nathaly-gutierrez-fotografia-de-producto-portafolio - copia.jpeg" >
+            </a>
+            <a href="img/contenido/grande6FINE_IMG (3).jpeg" data-fancybox="img-otros-servicios">
+               <img src="img/contenido/FINE_IMG (3).jpeg" >
+            </a>
+            <a href="img/contenido/grande3-FINE_IMG (4) (1).jpeg" data-fancybox="img-otros-servicios">
+             <img src="img/contenido/FINE_IMG (4) (1).jpeg" >
+             </a>
+             <a href="img/contenido/grande-nathaly-gutierrez-fotografia-de-producto-portafolio-03.jpg" data-fancybox="img-otros-servicios">
+               <img src="img/contenido/nathaly-gutierrez-fotografia-de-producto-portafolio-3.jpeg" >
+               </a>
+            <a href="img/contenido/grande5-nathaly-gutierrez-fotografia-de-producto-portafolio-2.jpeg" data-fancybox="img-otros-servicios">
+            <img src="img/contenido/nathaly-gutierrez-fotografia-de-producto-portafolio-2.jpeg" >
+            </a>
+            <a href="img/contenido/FINE_IMG (5)-grande.jpeg" data-fancybox="img-otros-servicios">
+               <img src="img/contenido/FINE_IMG (5) (1).jpeg" >
+            </a>
+            <a href="img/contenido/grande7-FINE_IMG (3) (1).jpeg" data-fancybox="img-otros-servicios">
+            <img src="img/contenido/FINE_IMG (3) (1).jpeg" alt="">
+            </a>
+
+            <a href="img/contenido/grande-FINE-IMG (1).JPG" data-fancybox="img-otros-servicios">
+                     <img src="img/contenido/FINE-IMG (1).jpg" alt="">
+                  </a>
+            
+            </nav>
+         
+   </article>
+</section>
+
+
       </main>
+
+
 
    <!-- Componente Footer -->
    <footer>
       <article>
          <a href="index.html">
-            <img src="img/contenido/logo en jpg.jpg" alt="Nathaly Gutiérrez - Diseño de marca ">
+            <img src="img/contenido/logo en png.png.tmp$$" alt="Nathaly Gutiérrez - Diseño de marca ">
         </a>
 
         <nav>
          <a href="mailto:ngutierrezmontes@gmail.com" target="_blank">
-            <i class="fad fa-envelope"></i>
+            <i class="fas fa-envelope-square"></i>
          </a>
 
          <a href="https://www.instagram.com/ngutierrez_12/" target="_blank">
@@ -106,8 +175,6 @@
          </a>
 
         </nav>
-         
-
 
       </article>
 
@@ -122,6 +189,9 @@
 <!-- Llamado a librería jQuery Easing desde CDN -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 
+<!-- Llamado a FancyApps -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 <!-- Llamado a JavaScript propio -->
    <script src="js/script.js"></script>
